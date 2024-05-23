@@ -50,6 +50,7 @@ namespace DahengSdkDev3
 
 
             #region 关闭相机
+            //cam_remote_control.GetCommandFeature("AcquisitionStop").Execute();
             //cam_stream.StopGrab();
             //cam_stream.UnregisterCaptureCallback();
             //cam.Close();

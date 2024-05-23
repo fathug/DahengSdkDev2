@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DahengSdkDev2", "DahengSdkD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DahengSdkDev3", "DahengSdkDev3\DahengSdkDev3.csproj", "{27E51268-B786-40B0-86F4-A42ED5465573}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DahengSdkDveForm", "DahengSdkDveForm\DahengSdkDveForm.csproj", "{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,14 @@ Global
 		{27E51268-B786-40B0-86F4-A42ED5465573}.Release|Any CPU.Build.0 = Release|Any CPU
 		{27E51268-B786-40B0-86F4-A42ED5465573}.Release|x64.ActiveCfg = Release|Any CPU
 		{27E51268-B786-40B0-86F4-A42ED5465573}.Release|x64.Build.0 = Release|Any CPU
+		{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}.Debug|x64.ActiveCfg = Debug|x64
+		{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}.Debug|x64.Build.0 = Debug|x64
+		{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}.Release|x64.ActiveCfg = Release|Any CPU
+		{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
