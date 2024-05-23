@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DahengSdkDev2", "DahengSdkDev2\DahengSdkDev2.csproj", "{8C033DFF-2B35-471E-A485-56C741298C5C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DahengSdkDev3", "DahengSdkDev3\DahengSdkDev3.csproj", "{27E51268-B786-40B0-86F4-A42ED5465573}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,14 @@ Global
 		{8C033DFF-2B35-471E-A485-56C741298C5C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8C033DFF-2B35-471E-A485-56C741298C5C}.Release|x64.ActiveCfg = Release|x64
 		{8C033DFF-2B35-471E-A485-56C741298C5C}.Release|x64.Build.0 = Release|x64
+		{27E51268-B786-40B0-86F4-A42ED5465573}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27E51268-B786-40B0-86F4-A42ED5465573}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27E51268-B786-40B0-86F4-A42ED5465573}.Debug|x64.ActiveCfg = Debug|x64
+		{27E51268-B786-40B0-86F4-A42ED5465573}.Debug|x64.Build.0 = Debug|x64
+		{27E51268-B786-40B0-86F4-A42ED5465573}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27E51268-B786-40B0-86F4-A42ED5465573}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27E51268-B786-40B0-86F4-A42ED5465573}.Release|x64.ActiveCfg = Release|Any CPU
+		{27E51268-B786-40B0-86F4-A42ED5465573}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -78,6 +78,15 @@ namespace DahengSdkDev2
                     return;
                 }
 
+                foreach (IGXDeviceInfo objDeviceInfo in listGXDeviceInfo)
+                {
+                    //Console.WriteLine(objDeviceInfo.GetModelName());
+                    //Console.WriteLine(objDeviceInfo.GetVendorName());
+                    MessageBox.Show(objDeviceInfo.GetDeviceID());
+                    //更多的设备信息详见 IGXDeviceInfo 接口
+                }
+
+
                 //打开列表第一个设备
 
                 m_objIGXDevice = m_objIGXFactory.OpenDeviceBySN(listGXDeviceInfo[0].GetSN(), GX_ACCESS_MODE.GX_ACCESS_EXCLUSIVE);
