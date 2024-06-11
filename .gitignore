@@ -3,12 +3,9 @@
 /.vs
 /*/bin/
 /*/obj/
-/*/Properties/
-/obj
 
 # file 不需要提交的文件
 config.ini
-/*/GxIAPINET.dll
 
 # .xxx 不需要提交的任意包含后缀名为xxx的文件
 *.ico
