@@ -86,6 +86,7 @@ namespace DahengSdkDveForm
             }
             else // 黑白，不需要对buffer转换，直接转为bmp
             {
+                var imgDataItr = imgData.GetBuffer();
                 Bitmap bitMap = new Bitmap(width, height, width,
                     System.Drawing.Imaging.PixelFormat.Format8bppIndexed, imgData.GetBuffer());
                 // 黑白需要用调色盘进行像素翻转
@@ -98,6 +99,8 @@ namespace DahengSdkDveForm
                 // 显示
                 pictureBox1.Image = bitMap;
             }
+
+            cam_remote_control.GetCommandFeature("AcquisitionStop").Execute();
             button4.Enabled = false;
         }
 
@@ -209,6 +212,7 @@ namespace DahengSdkDveForm
         {
             cam_stream.StopGrab();
             cam_remote_control.GetCommandFeature("AcquisitionStop").Execute();
+            cam_stream.UnregisterCaptureCallback();
 
             button3.Enabled = true;
             button4.Enabled = true;
