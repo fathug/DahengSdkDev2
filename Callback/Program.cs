@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using GxIAPINET;
 
-namespace DahengSdkDev3
+namespace Callback
 {
     class Program
     {

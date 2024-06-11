@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DahengSdkDev2", "DahengSdkDev2\DahengSdkDev2.csproj", "{8C033DFF-2B35-471E-A485-56C741298C5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DahengSdkForm0", "DahengSdkForm0\DahengSdkForm0.csproj", "{8C033DFF-2B35-471E-A485-56C741298C5C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DahengSdkDev3", "DahengSdkDev3\DahengSdkDev3.csproj", "{27E51268-B786-40B0-86F4-A42ED5465573}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Callback", "Callback\Callback.csproj", "{27E51268-B786-40B0-86F4-A42ED5465573}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DahengSdkDveForm", "DahengSdkDveForm\DahengSdkDveForm.csproj", "{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DahengSdkForm1", "DahengSdkForm1\DahengSdkForm1.csproj", "{6A2C5BFE-2507-4D5E-ACDD-5B28B60D1BEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
